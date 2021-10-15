@@ -2,69 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>John Hitz</title>
+    <title>Race Day</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="hero">
       <header class="nav">
-        <div class="logo">Header Logo</div>
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link one</a></li>
-        </ul>
+        <div class="header-left">
+          <div class="logo"></div>
+          <div class="name">
+            <h1>Race Day</h1>
+            <h2>Pigeon Club</h2>
+          </div>
+        </div>
+        <div class="header-right">
+          <ul>
+            <li><a href="#info">About</a></li>
+            <li><a href="#quote">Quote</a></li>
+            <li><a href="#join">Join</a></li>
+          </ul>
+        </div>
       </header>
       <div class="hero-content">
         <div class="left">
-          <h1>This website is awesome</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque rem ipsa, suscipit, maxime officia nobis ut deserunt, corporis quis quidem quo.</p>
-          <button>Sign up</button>
+          <h1>All things pigeon</h1>
+          <p>Have a pigeon or some pigeon related merchendise you need to to buy or sell? <strong>Contact us!</strong></p>
+          <button>Contact</button>
         </div class="placeholder">
-        <div class="right">this is a placeholder for an image</div>
+        <div class="right">
+          <img src="/images/raceDay.jpeg" class="hero-img" alt="Hundreds of racing pegions being released from trucks">
+        </div>
       </div>
     </div>
 
     <div class="content">
-      <div class="info">
-        <h1>Some random information</h1>
+      <div class="info" id="info">
+        <h1>Find out about pigeon racing!</h1>
         <div class="figures">
           <figure class="figure">
-            <div class="img"></div>
+            <div class="img">
+              <img src="images/racingPigeonsInFlight.jpeg" alt="Racing pigeons in flight." width="100px;" height="100px;">
+            </div>
             <figcaption class="caption">
-              this is some subtext under and illistration or an image
+              Racing pigeons expeditiously making their way home!
             </figcaption>
           </figure>
           <figure class="figure">
-            <div class="img"></div>
+            <div class="img">
+              <img src="images/racingPigeonLanding.jpeg" alt="Racing pigeon landing." width="100px;" height="100px;">
+            </div>
             <figcaption class="caption">
-              this is some subtext under and illistration or an image
+              A racing pigeon coming in for a landing.
             </figcaption>
           </figure>
           <figure class="figure">
-            <div class="img"></div>
+            <div class="img">
+              <img src="images/bandedPigeon.png" alt="Banded racing pigeon." width="100px;" height="100px;">
+            </div>
             <figcaption class="caption">
-              this is some subtext under and illistration or an image
+              Here's a close up of a homing pigeon with a numbered band for identification.
             </figcaption>
           </figure>
           <figure class="figure">
-            <div class="img"></div>
+            <div class="img">
+              <img src="images/clock.jpeg" alt="Racing pigeons in flight." width="100px;" height="100px;">
+            </div>
             <figcaption class="caption">
-              this is some subtext under and illistration or an image
+              Here is an example of a vintage racing clock, which is what makes the sport tick.
             </figcaption>
           </figure>
         </div>
       </div>
-      <section class="quote">
+      <section class="quote" id="quote">
         <blockquote class="block-quote" cite="http://">
-          This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is it looks nice.
+          “In my day if we wanted to communicate through a twitter bird we wrote a note and stuck it on a pigeon!”
         </blockquote>
-        <cite class="cite">-Thor, God of Thunder</cite>
+        <cite class="cite">-Unknown</cite>
       </section>
-      <div class="call-to-action">
+      <div class="call-to-action" id="join">
         <div class="left-call">
-          <h2>Call to action! It's time!</h2>
-          <p>Sign up for our product by clicking that button right over there!</p>
+          <h2>Join Our Club!</h2>
+          <p>To sign up click that button right over there!</p>
         </div>
         <button class="call-button">Sign up</button>
       </div>
