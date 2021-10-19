@@ -62,14 +62,23 @@
 }
 
 .logo {
-  /* font-size: 24px;
-  font-weight: bolder; */
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   background-image: url("/images/logo.jpg");
   background-origin: content-box;
-  background-size: cover;
-  border-radius: 50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .left {
@@ -112,7 +121,7 @@
 }
 
 .info h1 {
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 .figures {
@@ -132,7 +141,6 @@
   height: 100px;
   width: 100px;
   border-radius: 12px;
-  border: 2px solid #3882F6;
   overflow: hidden;
 }
 
