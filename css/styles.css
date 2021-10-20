@@ -4,6 +4,7 @@
 }
 
 .hero {
+  height: 100vh;
   background: #1F2937;
   color: #F9FAF8;
   padding: 5px 100px;
@@ -109,13 +110,16 @@
   display: flex;
   flex-direction: column;
   background: white;
-  justify-content: space-between;
+  justify-content: space-around;
+
 }
 
 .info {
   /* margin-top: 30px; */
+  height: 50vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 30px;
 }
@@ -130,16 +134,16 @@
 }
 
 .figure {
-  width: 150px;
+  width: 200px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.figure .img {
-  height: 100px;
-  width: 100px;
+.figure img {
+  height: 150px;
+  width: 150px;
   border-radius: 12px;
   overflow: hidden;
 }
