@@ -63,9 +63,10 @@
 }
 
 .logo {
-  width: 125px;
-  height: 125px;
-  background-image: url("/images/onAHill.jpg");
+  width: 100px;
+  height: 100px;
+  background-image: url("/images/logo.jpg");
+  background-color: #1F2937;
   background-origin: content-box;
   background-position: center;
   background-size: contain;
