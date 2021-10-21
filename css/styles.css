@@ -65,7 +65,7 @@
 .logo {
   width: 125px;
   height: 125px;
-  background-image: url("/images/logo.jpg");
+  background-image: url("./images/logo.jpg");
   background-origin: content-box;
   background-position: center;
   background-size: contain;
