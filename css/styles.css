@@ -45,13 +45,11 @@
 .header-left {
   width: 320px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
 .header-right {
   display: flex;
-  /* justify-content: flex-end; */
 }
 
 .header-left h1 {
@@ -102,9 +100,6 @@
 .right {
   max-width: 400px;
   max-height: 150px;
-  /* background-image: url("/images/raceDay.jpeg");
-  background-position: bottom;
-  background-size: cover; */
 }
 
 .content {
@@ -116,7 +111,6 @@
 }
 
 .info {
-  /* margin-top: 30px; */
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -161,16 +155,12 @@
   justify-content: center;
   padding-bottom: 30px;
   padding: #E5E7EB;
-  /* max-width: 70%; */
-  /* height: 350px; */
-  /* align-items: flex-end; */
 }
 
 .cite {
   font-size: 36px;
   font-weight: bold;
   margin-left: 66%;
-  /* width: 50%; */
 }
 
 .block-quote {
